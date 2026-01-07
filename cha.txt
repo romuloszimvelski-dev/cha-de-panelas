@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chá de Panelas</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(to bottom, #f4f8f4, #e0efe3);
+        color: #2f4f2f;
+    }
+
+    .container {
+        max-width: 420px;
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+
+    .divider {
+        width: 80px;
+        height: 3px;
+        background-color: #6b8e6b;
+        margin: 20px auto;
+        border-radius: 5px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 10px 0;
+    }
+
+    .btn {
+        display: block;
+        margin: 12px 0;
+        padding: 14px;
+        background-color: #6b8e6b;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: 16px;
+        transition: background 0.3s;
+    }
+
+    .btn:hover {
+        background-color: #567556;
+    }
+
+    .footer {
+        font-size: 13px;
+        color: #6f8f6f;
+        margin-top: 25px;
+    }
+
+    .leaf {
+        font-size: 32px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="leaf">🌿</div>
+
+    <h1>Chá de Panelas</h1>
+    <h2>Você está convidado(a)!</h2>
+
+    <div class="divider"></div>
+
+    <p>
+        Vamos celebrar esse momento especial com um chá de panelas cheio de amor,
+        risadas e boas energias 🌱
+    </p>
+
+    <p><strong>📅 Data:</strong> 00/00/2026<br>
+       <strong>⏰ Horário:</strong> 00h00</p>
+
+    <div class="divider"></div>
+
+    <a class="btn" href="https://maps.google.com" target="_blank">
+        📍 Ver localização
+    </a>
+
+    <a class="btn" href="https://www.exemplo.com/lista" target="_blank">
+        🎁 Lista de presentes
+    </a>
+
+    <a class="btn" href="https://wa.me/5599999999999" target="_blank">
+        ✅ Confirmar presença
+    </a>
+
+    <div class="footer">
+        Esperamos você para esse dia especial 🤍🌿
+    </div>
+</div>
+
+</body>
+</html>
